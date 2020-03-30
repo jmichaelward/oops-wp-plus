@@ -1,5 +1,21 @@
 {
+    "name": "jmichaelward/oops-wp-plus",
+    "description": "A custom extension of the OOPS-WP library.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Jeremy Ward",
+            "email": "jeremy@jmichaelward.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "webdevstudios/oops-wp": "^0.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JMichaelWard\\OopsWPPlus\\": "src/"
+        }
     }
 }
