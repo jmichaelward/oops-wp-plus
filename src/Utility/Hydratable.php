@@ -20,7 +20,7 @@
  * @package JMichaelWard\OopsWPPlus\Utility
  */
 
-namespace JMichaelWard\OopsWPPlus;
+namespace JMichaelWard\OopsWPPlus\Utility;
 
 /**
  * Interface Hydratable
